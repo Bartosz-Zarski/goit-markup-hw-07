@@ -47,69 +47,48 @@ h1 {
   width: 1200px;
   margin: 0 auto;
 }
-.container-top {
-  margin: 0 auto;
-}
-.container-lorem {
-  margin: 0 auto;
-}
-.container-offer {
-  margin: 0 auto;
-}
-.container-footer {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-.container-portfolio {
-  margin: 0 auto;
-}
-.container-customers {
-  margin: 0 auto;
-}
-.logo .container {
+.site-header .container {
   display: flex;
   align-items: center;
   align-content: center;
   border-bottom: 1px solid var(--border-header-color);
 }
-.container .logo__link {
+.container .site-header__link {
   margin: 24px 0px 24px 0px;
 }
-.logo__nav-list {
+.site-header__navigation {
   margin: 32px 0px 32px 93px;
 }
-.logo__nav-list ul {
+.site-header__navigation ul {
   padding: 0px;
 }
-.logo__nav-list li {
+.site-header__navigation li {
   display: inline;
 }
 
-.logo__nav-list li:nth-child(2) {
+.site-header__navigation li:nth-child(2) {
   margin: 0px 46px 0px 46px;
 }
-.logo__header-contact {
+.site-header__contact {
   margin: 0px 0px 0px 371px;
 }
-.logo__header-contact li {
+.site-header__contact li {
   display: inline;
 }
-.logo__svg-nav {
+.site-header__svg {
   margin-right: 10px;
   fill: var(--grey-color);
   vertical-align: middle;
 }
-.logo__link-start--active:hover svg,
-.logo__link-start-start--active:focus svg,
-.logo__link-start-start--active:active svg {
+.site-header__link--active:hover svg,
+.site-header__link--active:focus svg,
+.site-header__link--active:active svg {
   fill: var(--brand-color);
 }
-
-.logo__header-contact li:first-child {
+.site-header__contact li:first-child {
   margin: 0px 15px 0px 0px;
 }
-.logo__header-contact li:last-child {
+.site-header__contact li:last-child {
   margin: 0px 0px 0px 15px;
 }
 .contact address {
@@ -156,7 +135,7 @@ h1 {
   font-size: 14px;
   line-height: 1.172;
 }
-.logo__link {
+.site-header__logo {
   color: inherit;
   text-decoration: none;
   font-weight: 700;
@@ -166,7 +145,7 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-.logo__link > span {
+.site-header__logo > span {
   color: var(--brand-color);
   font-weight: 700;
   font-size: 26px;
@@ -182,7 +161,7 @@ h1 {
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.logo__link-start {
+.site-header__link {
   color: var(--grey-color);
   text-decoration: none;
   font-weight: 500;
@@ -190,9 +169,9 @@ h1 {
   line-height: 1.172;
   letter-spacing: 0.02em;
 }
-.logo__link-start--active:hover,
-.logo__link-start--active:focus,
-.logo__link-start--active:active {
+.site-header__link--active:hover,
+.site-header__link--active:focus,
+.site-header__link--active:active {
   color: var(--brand-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
@@ -496,7 +475,7 @@ h1 {
 
 /* ----------------------Customers------------------------ */
 
-.container-customers h2 {
+.customers h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
@@ -577,11 +556,11 @@ h1 {
 .footer_icon:active svg {
   --color1: var(--white-color);
 }
-.logo__active-link {
+.link--is-active {
   position: relative;
   color: var(--brand-color);
 }
-.logo__active-link::after {
+.link--is-active::after {
   content: '';
   position: absolute;
   bottom: 0;
