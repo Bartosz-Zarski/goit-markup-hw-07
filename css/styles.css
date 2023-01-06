@@ -73,28 +73,21 @@ h1 {
   align-content: center;
   border-bottom: 1px solid var(--border-header-color);
 }
-.logo-portfolio .container {
-  display: flex;
-  align-items: center;
-  align-content: center;
-}
-.logo-portfolio {
-  border-bottom: 1px solid var(--border-header-color);
-}
-.container .link-logo {
+
+.container .logo__link {
   margin: 24px 0px 24px 0px;
 }
-.nav-list {
+.logo__nav-list {
   margin: 32px 0px 32px 93px;
 }
-.nav-list ul {
+.logo__nav-list ul {
   padding: 0px;
 }
-.nav-list li {
+.logo__nav-list li {
   display: inline;
 }
 
-.nav-list li:nth-child(2) {
+.logo__nav-list li:nth-child(2) {
   margin: 0px 46px 0px 46px;
 }
 .header-contact {
@@ -164,7 +157,7 @@ h1 {
   font-size: 14px;
   line-height: 1.172;
 }
-.link-logo {
+.logo__link {
   color: inherit;
   text-decoration: none;
   font-weight: 700;
@@ -174,7 +167,7 @@ h1 {
   letter-spacing: 0.03em;
 }
 
-.link-logo > span {
+.logo__link > span {
   color: var(--brand-color);
   font-weight: 700;
   font-size: 26px;
@@ -585,11 +578,11 @@ h1 {
 .footer_icon:active svg {
   --color1: var(--white-color);
 }
-.active-link {
+.logo__active-link {
   position: relative;
   color: var(--brand-color);
 }
-.active-link::after {
+.logo__active-link::after {
   content: '';
   position: absolute;
   bottom: 0;
