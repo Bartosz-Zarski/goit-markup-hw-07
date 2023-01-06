@@ -73,7 +73,6 @@ h1 {
   align-content: center;
   border-bottom: 1px solid var(--border-header-color);
 }
-
 .container .logo__link {
   margin: 24px 0px 24px 0px;
 }
@@ -90,27 +89,27 @@ h1 {
 .logo__nav-list li:nth-child(2) {
   margin: 0px 46px 0px 46px;
 }
-.header-contact {
+.logo__header-contact {
   margin: 0px 0px 0px 371px;
 }
-.header-contact li {
+.logo__header-contact li {
   display: inline;
 }
-.svg-nav {
+.logo__svg-nav {
   margin-right: 10px;
   fill: var(--grey-color);
   vertical-align: middle;
 }
-.link-start:hover svg,
-.link-start:focus svg,
-.link-start:active svg {
+.logo__link-start--active:hover svg,
+.logo__link-start-start--active:focus svg,
+.logo__link-start-start--active:active svg {
   fill: var(--brand-color);
 }
 
-.header-contact li:first-child {
+.logo__header-contact li:first-child {
   margin: 0px 15px 0px 0px;
 }
-.header-contact li:last-child {
+.logo__header-contact li:last-child {
   margin: 0px 0px 0px 15px;
 }
 .contact address {
@@ -175,15 +174,15 @@ h1 {
   font-family: Raleway;
   letter-spacing: 0.03em;
 }
-.link:hover,
-.link:focus,
-.link:active {
+.link--active:hover,
+.link--active:focus,
+.link--active:active {
   color: var(--brand-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.link-start {
+.logo__link-start {
   color: var(--grey-color);
   text-decoration: none;
   font-weight: 500;
@@ -191,9 +190,9 @@ h1 {
   line-height: 1.172;
   letter-spacing: 0.02em;
 }
-.link-start:hover,
-.link-start:focus,
-.link-start:active {
+.logo__link-start--active:hover,
+.logo__link-start--active:focus,
+.logo__link-start--active:active {
   color: var(--brand-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
