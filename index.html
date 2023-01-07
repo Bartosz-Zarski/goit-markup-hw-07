@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--Header-->
-    <header id="header" class="site-header"> 
+    <header id="header" class="site-header">  <!-- Blok site-header --> 
       <div class="container">
         <a class="site-header__logo" href="#"><span>Web</span>Studio</a>
         <nav class="site-header__navigation">
@@ -51,7 +51,7 @@
     </header>
 
     <main id="main">
-      <!--Hero-->
+      <!--Hero, blok Solutions -->
       <section class="section solutions-bg">
         <div class="solutions container">
           <h1>
@@ -61,46 +61,46 @@
           <button type="button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
-      <!--Lorem-->
+      <!--Lorem, blok Lorem -->
       <section class="section">
         <div class="container">
-          <ul class="lorem-showcase">
-            <li class="lorem-box">
-              <svg class="lorem-icon" width="270" height="120">
-                <use class="icon-antenna" href="images/icons.svg#icon-satellite"></use>
+          <ul class="lorem">
+            <li class="lorem__box">
+              <svg class="lorem__icon" width="270" height="120">
+                <use href="images/icons.svg#icon-satellite"></use>
               </svg>
-              <h3 class="lorem">LOREM IPSUM</h3>
-              <p class="paragraph">
+              <h3 class="lorem__title">LOREM IPSUM</h3>
+              <p class="lorem__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuad
               </p>
             </li>
-            <li class="lorem-box">
-              <svg class="lorem-icon" width="270" height="120">
-                <use class="icon-antenna" href="images/icons.svg#icon-clock"></use>
+            <li class="lorem__box">
+              <svg class="lorem__icon" width="270" height="120">
+                <use href="images/icons.svg#icon-clock"></use>
               </svg>
-              <h3 class="lorem">LOREM IPSUM</h3>
-              <p class="paragraph">
+              <h3 class="lorem__title">LOREM IPSUM</h3>
+              <p class="lorem__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuad
               </p>
             </li>
-            <li class="lorem-box">
-              <svg class="lorem-icon" width="270" height="120">
-                <use class="icon-antenna" href="images/icons.svg#icon-pc-chart"></use>
+            <li class="lorem__box">
+              <svg class="lorem__icon" width="270" height="120">
+                <use href="images/icons.svg#icon-pc-chart"></use>
               </svg>
-              <h3 class="lorem">LOREM IPSUM</h3>
-              <p class="paragraph">
+              <h3 class="lorem__title">LOREM IPSUM</h3>
+              <p class="lorem__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuad
               </p>
             </li>
-            <li class="lorem-box">
-              <svg class="lorem-icon" width="270" height="120">
-                <use class="icon-antenna" href="images/icons.svg#icon-astronaut"></use>
+            <li class="lorem__box">
+              <svg class="lorem__icon" width="270" height="120">
+                <use href="images/icons.svg#icon-astronaut"></use>
               </svg>
-              <h3 class="lorem">LOREM IPSUM</h3>
-              <p class="paragraph">
+              <h3 class="lorem__title">LOREM IPSUM</h3>
+              <p class="lorem__paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
                 sodales dui. Interdum et malesuad
               </p>
@@ -109,11 +109,11 @@
         </div>
       </section>
       <!--Oferta-->
-      <section class="section section-what">
-        <h2 class="offer-main">Czym się zajmujemy</h2>
+      <section class="section section--mockup-fix">
+        <h2 class="offer offer__title">Czym się zajmujemy</h2> <!-- Blok Offer -->
         <div class="container">
-          <ul class="offer-list">
-            <li class="offer-box">
+          <ul class="offer__list">
+            <li class="offer__box">
               <img
                 src="images/work/work1.jpg"
                 alt="Programista piszący kod"
@@ -122,7 +122,7 @@
               />
               <p>APLIKACJE KOMPUTEROWE</p>
             </li>
-            <li class="offer-box">
+            <li class="offer__box">
               <img
                 src="images/work/work2.jpg"
                 alt="Programista używający telefonu i laptopa"
@@ -131,7 +131,7 @@
               />
               <p>APLIKACJE MOBILNE</p>
             </li>
-            <li class="offer-box">
+            <li class="offer__box">
               <img
                 src="images/work/work3.jpg"
                 alt="Developer pracujący na tablecie z paletą kolorów"
@@ -145,11 +145,11 @@
       </section>
 
       <!--Zespół-->
-      <section class="section team">
+      <section class="section team"> <!-- Blok Team -->
         <div class="container">
-          <h2 class="header-2">Nasz zespół</h2>
-          <ul class="people">
-            <li class="box">
+          <h2 class="team__title">Nasz zespół</h2>
+          <ul class="team__list">
+            <li class="team__box">
               <figure>
                 <img src="images/team/team1.jpg" alt="Product designer" width="270" height="260" />
                 <figcaption class="team-description">
@@ -157,29 +157,29 @@
                   <p>Product Designer</p>
                 </figcaption>
               </figure>
-              <ul class="team_icons">
-                <li class="team_icon">
+              <ul class="team__smedia">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-linkedin-1"></use>
@@ -188,7 +188,7 @@
                 </li>
               </ul>
             </li>
-            <li class="box">
+            <li class="team__box">
               <figure>
                 <img
                   src="images/team/team2.jpg"
@@ -201,29 +201,29 @@
                   <p>Frontend Developer</p>
                 </figcaption>
               </figure>
-              <ul class="team_icons">
-                <li class="team_icon">
+              <ul class="team__smedia">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-linkedin-1"></use>
@@ -232,7 +232,7 @@
                 </li>
               </ul>
             </li>
-            <li class="box">
+            <li class="team__box">
               <figure>
                 <img
                   src="images/team/team3.jpg"
@@ -245,29 +245,29 @@
                   <p>Marketing</p>
                 </figcaption>
               </figure>
-              <ul class="team_icons">
-                <li class="team_icon">
+              <ul class="team__smedia">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-linkedin-1"></use>
@@ -276,7 +276,7 @@
                 </li>
               </ul>
             </li>
-            <li class="box">
+            <li class="team__box">
               <figure>
                 <img src="images/team/team4.jpg" alt="UI Designer" width="270" height="260" />
                 <figcaption class="team-description">
@@ -284,29 +284,29 @@
                   <p>UI Designer</p>
                 </figcaption>
               </figure>
-              <ul class="team_icons">
-                <li class="team_icon">
+              <ul class="team__smedia">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="team_icon">
+                <li>
                   <a class="social_icon">
                     <svg width="20" height="20">
                       <use href="images/icons.svg#icon-linkedin-1"></use>
@@ -384,29 +384,29 @@
         </div>
         <div class="footer-icons">
           <h3>DOŁĄCZ DO NAS</h3>
-          <ul class="team_icons">
-            <li class="team_icon">
+          <ul class="team__smedia">
+            <li>
               <a class="footer_icon">
                 <svg width="20" height="20">
                   <use href="images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="team_icon">
+            <li>
               <a class="footer_icon">
                 <svg width="20" height="20">
                   <use href="images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="team_icon">
+            <li>
               <a class="footer_icon">
                 <svg width="20" height="20">
                   <use href="images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="team_icon">
+            <li>
               <a class="footer_icon">
                 <svg width="20" height="20">
                   <use href="images/icons.svg#icon-linkedin-1"></use>
