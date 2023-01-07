@@ -369,35 +369,36 @@ h1 {
 
 /*---------------------------- SOCIAL ICONS ----------------------------*/
 
-.social_icon {
+.social__icon {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 12px;
   border-radius: 50%;
 }
-.social_icon:hover,
-.social_icon:focus,
-.social_icon:active {
+.social--is-active:hover,
+.social--is-active:focus,
+.social--is-active:active {
   background-color: var(--brand-color);
   cursor: pointer;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.social_icon:hover svg,
-.social_icon:focus svg,
-.social_icon:active svg {
+.social--is-active:hover svg,
+.social--is-active:focus svg,
+.social--is-active:active svg {
   --color1: var(--white-color);
 }
+
+
+/* ---------------------------Portfolio Boxes-------------------------- */
+
 .offer-portfolio {
   display: flex;
   flex-wrap: wrap;
   row-gap: 30px;
   column-gap: 30px;
 }
-
-/* ---------------------------Portfolio Boxes-------------------------- */
-
 .box-portfolio {
   width: 370px;
 }
@@ -485,19 +486,19 @@ h1 {
   letter-spacing: 0.03em;
   padding-bottom: 25px;
 }
-.customers-list {
+.customers__list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 30px;
   padding-top: 25px;
 }
-.customers-icons {
+.customers__icons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.customer-icon {
+.customer__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -509,9 +510,9 @@ h1 {
   border: 1px solid;
   border-radius: 4%;
 }
-.customers-icons:hover .customer-icon,
-.customers-icons:focus .customer-icon,
-.customers-icons:active .customer-icon {
+.customers--is-active:hover .customer__icon,
+.customers--is-active:focus .customer__icon,
+.customers--is-active:active .customer__icon {
   fill: var(--brand-color);
   border-color: var(--brand-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
