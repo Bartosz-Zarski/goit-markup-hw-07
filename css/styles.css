@@ -189,17 +189,9 @@ h1 {
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.link-footer {
-  color: var(--grey-color);
-  text-decoration: none;
-}
-.link-footer:hover,
-.link-footer:focus,
-.link-footer:active {
-  color: var(--brand-color);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 250ms;
-}
+
+/*----------------------- Blok Solutions -----------------------*/
+
 .solutions {
   display: flex;
   flex-direction: column;
@@ -234,9 +226,9 @@ h1 {
   text-align: center;
   margin: 15px 0px 0px 0px;
 }
-.solutions button:hover,
-.solutions button:focus,
-.solutions button:active {
+.solutions .button--is-active:hover,
+.solutions .button--is-active:focus,
+.solutions .button--is-active:active {
   cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -498,6 +490,17 @@ h1 {
   letter-spacing: 0.03em;
   font-family: Raleway;
 }
+.contact__link {
+  color: var(--grey-color);
+  text-decoration: none;
+}
+.contact__link--active:hover,
+.contact__link--active:focus,
+.contact__link--active:active {
+  color: var(--brand-color);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
 
 /* ----------------------Customers------------------------ */
 
@@ -527,24 +530,26 @@ h1 {
   align-items: center;
   width: 170px;
   height: 92px;
-  cursor: pointer;
   fill: var(--icon-color);
   color: var(--icon-color);
   border: 1px solid;
   border-radius: 4%;
 }
-.customers--is-active:hover .customer__icon,
-.customers--is-active:focus .customer__icon,
-.customers--is-active:active .customer__icon {
+.icon--is-active:hover .customer__icon,
+.icon--is-active:focus .customer__icon,
+.icon--is-active:active .customer__icon {
   fill: var(--brand-color);
   border-color: var(--brand-color);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
+  cursor: pointer;
+  background-color: var(--brand-color);
+
 }
 
 /* ----------------------Footer icons----------------------- */
 
-.footer-icons h3 {
+.join h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -554,15 +559,11 @@ h1 {
   color: var(--white-color);
   padding-top: 72px;
 }
-.footer-icons {
+.join {
   margin-left: 70px;
 }
-.contact button:hover,
-.contact button:focus,
-.contact button:active {
-  cursor: pointer;
-}
-.footer_icon {
+
+.join__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -570,17 +571,16 @@ h1 {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
-.footer_icon:hover,
-.footer_icon:focus,
-.footer_icon:active {
-  background-color: var(--brand-color);
+.icon--is-active:hover,
+.icon--is-active:focus,
+.icon--is-active:active {
   cursor: pointer;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 250ms;
 }
-.footer_icon:hover svg,
-.footer_icon:focus svg,
-.footer_icon:active svg {
+.icon--is-active:hover svg,
+.icon--is-active:focus svg,
+.icon--is-active:active svg {
   --color1: var(--white-color);
 }
 
@@ -855,6 +855,11 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0px;
+}
+.button--is-active:hover,
+.button--is-active:focus,
+.button--is-active:active {
+  cursor: pointer;
 }
 .sign svg {
   fill: white;
