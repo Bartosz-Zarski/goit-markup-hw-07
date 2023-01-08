@@ -1,0 +1,23 @@
+.social__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 50%;
+}
+.social--is-active {
+  @include active {
+    background-color: $brandColor;
+    cursor: pointer;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+}
+
+.social--is-active {
+  &:hover svg,
+  &:focus svg,
+  &:active svg {
+    --color1: #fff;
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  &::before,
+  &::after {
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--black-color);
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  margin: 0px 0px 15px 0px;
+}

@@ -1,0 +1,73 @@
+.contact {
+  background-color: $bgColor;
+}
+.contact {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.contact {
+  address {
+    padding: 20px 0px 60px 0px;
+    color: $white;
+    font-size: 14px;
+    line-height: 1.714;
+  }
+}
+.contact__address--fontdetails {
+  color: $white;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.714;
+}
+.contact__address--fontdetails:nth-child(1) {
+  padding-bottom: 4.5px;
+}
+.contact__address--fontdetails:nth-child(2) {
+  padding-top: 4.5px;
+  padding-bottom: 4.5px;
+}
+.contact__address--fontdetails:nth-child(3) {
+  padding-top: 4.5px;
+}
+.contact__address {
+  padding-top: 60px;
+  margin-left: 15px;
+}
+.contact__address--portfolio {
+  padding-top: 60px;
+}
+.contact {
+  .link {
+    color: $brandColor;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.173;
+    font-family: Raleway;
+    letter-spacing: 0.03em;
+    width: 143px;
+  }
+}
+.contact {
+  span {
+    color: $white;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.173;
+    letter-spacing: 0.03em;
+    font-family: Raleway;
+  }
+}
+.contact__link {
+  color: $grey;
+  text-decoration: none;
+}
+.contact__link {
+  @include active {
+    color: $brandColor;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+}

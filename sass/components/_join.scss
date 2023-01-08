@@ -1,0 +1,38 @@
+.join {
+  h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white;
+    padding-top: 72px;
+  }
+}
+.join {
+  margin-left: 70px;
+}
+.join__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.join__icon {
+  @include active {
+    background-color: $brandColor;
+    cursor: pointer;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+}
+.join__icon {
+  &:hover svg,
+  &:focus svg,
+  &:active svg {
+    --color1: #fff;
+  }
+}

@@ -1,0 +1,59 @@
+
+.newsletter {
+  margin-left: 78px;
+  margin-top: 72px;
+}
+.newsletter h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white;
+  margin-bottom: 20px;
+}
+.newsletter__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $white;
+  background-color: $brandColor;
+  padding: 10px 12px 10px 42px;
+  width: 200px;
+  height: 50px;
+  margin-top: 108px;
+  margin-left: 12px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+}
+
+.newsletter__btn {
+  svg {
+    fill: #fff;
+    margin-left: 24px;
+  }
+}
+.newsletter {
+  input {
+    background-color: $bgColor;
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+  }
+}
+.newsletter__btn--is-active {
+  @include active {
+    cursor: pointer;
+  }
+}
